@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="html" href="DespreNoi.html">
+    <link rel="html" href="TestPersonalitate.html">
+    <link rel="stylesheet" href="DespreNoiStyle.css">
+    <link rel="stylesheet" href="TestPersStyle.css">
+    <link rel="stylesheet" href="HomeStyle.css">
+    <title>Test de Personalitate</title>
+</head>
+<body>
+    <div class="banner">
+        <div class="navigation">
+          <a href="HomePage.html">Home</a>
+          <a href="DespreNoi.html">Despre Noi</a>
+          <a href="TestPersonalitate.html">Test Personalitate</a>
+        </div>
+      </div>
+    
+      <div class="container">
+        <h1 class="headline">Test de Personalitate</h1>
+        <p class="paragraph">Aici puteți completa testul de personalitate. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <div class="left-section">
+          <h2 class="subtitle">Puncte Forte</h2>
+          <div class="strengths">
+            <div class="strength">
+              <input type="radio" name="Animat" id="strength1_option1">
+              <label for="strength1_option1">Animat</label>
+              <span class="tooltip" >?</span>
+            </div>
+            <div class="strength">
+              <input type="radio" name="Cutezator" id="strength1_option2">
+              <label for="strength1_option2">Cutezator</label>
+              <span class="tooltip" onclick="showTooltip('forta 2')">?</span>
+            </div>
+            <div class="strength">
+              <input type="radio" name="Analitic" id="strength1_option3">
+              <label for="strength1_option3">Analitic</label>
+              <span class="tooltip" onclick="showTooltip('forta 3')">?</span>
+            </div>
+            <div class="strength">
+                <input type="radio" name="Adaptabil" id="strength1_option4">
+                <label for="strength1_option4">Adaptabil</label>
+                <span class="tooltip" >?</span>
+              </div>
+            <br>
+            <br>
+            <br>
+            <div class="strength">
+                <input type="radio" name="Voios" id="strength2_option1">
+                <label for="strength2_option1">Voios</label>
+                <span class="tooltip" >?</span>
+              </div>
+              <div class="strength">
+                <input type="radio" name="Razbutanor" id="strength2_option2">
+                <label for="strength2_option2">Razbutanor</label>
+                <span class="tooltip" >?</span>
+              </div>
+              <div class="strength">
+                <input type="radio" name="Perseverent" id="strength2_option3">
+                <label for="strength2_option3">Perseverent</label>
+                <span class="tooltip" >?</span>
+              </div>
+              <div class="strength">
+                <input type="radio" name="Pasnic" id="strength2_option4">
+                <label for="strength2_option4">Pasnic</label>
+                <span class="tooltip" >?</span>
+              </div>
+              <br>
+              <br>
+              <br>
+              <div class="strength">
+                <input type="radio" name="Sociabil" id="strength3_option1">
+                <label for="strength3_option1">Sociabil</label>
+                <span class="tooltip" >?</span>
+              </div>
+              <div class="strength">
+                <input type="radio" name="Darz" id="strength2_option2">
+                <label for="strength3_option2">Darz</label>
+                <span class="tooltip" >?</span>
+              </div>
+              <div class="strength">
+                <input type="radio" name="Altruist" id="strength3_option3">
+                <label for="strength3_option3">Altruist</label>
+                <span class="tooltip" >?</span>
+              </div>
+              <div class="strength">
+                <input type="radio" name="Docil" id="strength3_option4">
+                <label for="strength3_option4">Docil</label>
+                <span class="tooltip" >?</span>
+              </div>
+              <br>
+              <br>
+              <br>
+              <div class="strength">
+                <input type="radio" name="Convingator" id="strength4_option1">
+                <label for="strength4_option1">Convingator</label>
+                <span class="tooltip" >?</span>
+              </div>
+              <div class="strength">
+                <input type="radio" name="Combatant" id="strength4_option2">
+                <label for="strength4_option2">Combatant</label>
+                <span class="tooltip" >?</span>
+              </div>
+              <div class="strength">
+                <input type="radio" name="Amabil" id="strength4_option3">
+                <label for="strength4_option3">Amabil</label>
+                <span class="tooltip" >?</span>
+              </div>
+              <div class="strength">
+                <input type="radio" name="Autocontrolat" id="strength4_option3">
+                <label for="strength4_option4">Autocontrolat</label>
+                <span class="tooltip" >?</span>
+              </div>
+              <br>
+              <br>
+              <br>
+              <div class="strength">
+                <input type="radio" name="Stimulator" id="strength5_option1">
+                <label for="strength5_option1">Stimulator</label>
+                <span class="tooltip" >?</span>
+              </div>
+              <div class="strength">
+                <input type="radio" name="Capabil" id="strength5_option2">
+                <label for="strength5_option2">Capabil</label>
+                <span class="tooltip" >?</span>
+              </div>
+              <div class="strength">
+                <input type="radio" name="Respectuos" id="strength5_option3">
+                <label for="strength5_option3">Respectuos</label>
+                <span class="tooltip" >?</span>
+              </div>
+              <div class="strength">
+                <input type="radio" name="Rezervat" id="strength5_option4">
+                <label for="strength5_option4">Rezervat</label>
+                <span class="tooltip" >?</span>
+              </div>
+          </div>
+        </div>
+      
+            <div class="left-section">
+                <h2 class="subtitle">Puncte Slabe</h2>
+                <div class="weaknesses">
+                  <div class="weakness">
+                    <input type="radio" name="Obraznic" id="weakness1_option1">
+                    <label for="weakness1_option1">Obraznic</label>
+                    <span class="tooltip" onclick="showTooltip('slăbiciune 1')">?</span>
+                  </div>
+                  <div class="weakness">
+                    <input type="radio" name="Despotic" id="weakness1_option2">
+                    <label for="weakness1_option2">Despotic</label>
+                    <span class="tooltip" onclick="showTooltip('slăbiciune 1')">?</span>
+                  </div>
+                  <div class="weakness">
+                    <input type="radio" name="Sfios" id="weakness1_option3">
+                    <label for="weakness1_option3">Sfios</label>
+                    <span class="tooltip" onclick="showTooltip('slăbiciune 1')">?</span>
+                  </div>
+                  <div class="weakness">
+                    <input type="radio" name="Inexpresiv" id="weakness1_option4">
+                    <label for="weakness1_option4">Inexpresiv</label>
+                    <span class="tooltip" onclick="showTooltip('slăbiciune 1')">?</span>
+                  </div>
+                  <br>
+                  <br>
+                  <br>
+                  <div class="weakness">
+                    <input type="radio" name="Indisciplinat" id="weakness2_option1">
+                    <label for="weakness2_option1">Indisciplinat</label>
+                    <span class="tooltip" onclick="showTooltip('slăbiciune 1')">?</span>
+                  </div>
+                  <div class="weakness">
+                    <input type="radio" name="Nepasator" id="weakness2_option2">
+                    <label for="weakness2_option2">Nepasator</label>
+                    <span class="tooltip" onclick="showTooltip('slăbiciune 1')">?</span>
+                  </div>
+                  <div class="weakness">
+                    <input type="radio" name="Neinduplecat" id="weakness2_option3">
+                    <label for="weakness2_option3">Neinduplecat</label>
+                    <span class="tooltip" onclick="showTooltip('slăbiciune 1')">?</span>
+                  </div>
+                  <div class="weakness">
+                    <input type="radio" name="Apatic" id="weakness2_option4">
+                    <label for="weakness2_option4">Apatic</label>
+                    <span class="tooltip" onclick="showTooltip('slăbiciune 1')">?</span>
+                  </div>
+                  <br>
+                  <br>
+                  <br>
+                  <div class="weakness">
+                    <input type="radio" name="Obositor" id="weakness3_option1">
+                    <label for="weakness3_option1">Obraznic</label>
+                    <span class="tooltip" onclick="showTooltip('slăbiciune 1')">?</span>
+                  </div>
+                  <div class="weakness">
+                    <input type="radio" name="Ranchiunos" id="weakness3_option2">
+                    <label for="weakness3_option2">Ranchiunos</label>
+                    <span class="tooltip" onclick="showTooltip('slăbiciune 1')">?</span>
+                  </div>
+                  <div class="weakness">
+                    <input type="radio" name="Potrivnic" id="weakness3_option3">
+                    <label for="weakness3_option1">Potrivnic</label>
+                    <span class="tooltip" onclick="showTooltip('slăbiciune 1')">?</span>
+                  </div>
+                  <div class="weakness">
+                    <input type="radio" name="Reticent" id="weakness3_option4">
+                    <label for="weakness3_option1">Reticent</label>
+                    <span class="tooltip" onclick="showTooltip('slăbiciune 1')">?</span>
+                  </div>
+                  <br>
+                  <br>
+                  <br>
+                  <div class="weakness">
+                    <input type="radio" name="Neatent" id="weakness4_option1">
+                    <label for="weakness4_option1">Neatent</label>
+                    <span class="tooltip" onclick="showTooltip('slăbiciune 1')">?</span>
+                  </div>
+                  <div class="weakness">
+                    <input type="radio" name="Franc" id="weakness4_option2">
+                    <label for="weakness4_option1">Franc 1</label>
+                    <span class="tooltip" onclick="showTooltip('slăbiciune 1')">?</span>
+                  </div>
+                  <div class="weakness">
+                    <input type="radio" name="Scarbos" id="weakness4_option3">
+                    <label for="weakness4_option3">Scarbos</label>
+                    <span class="tooltip" onclick="showTooltip('slăbiciune 1')">?</span>
+                  </div>
+                  <div class="weakness">
+                    <input type="radio" name="Fricos" id="weakness4_option4">
+                    <label for="weakness4_option4">Fricos</label>
+                    <span class="tooltip" onclick="showTooltip('slăbiciune 1')">?</span>
+                  </div>
+                  <br>
+                  <br>
+                  <br>
+                  <div class="weakness">
+                    <input type="radio" name="Care Intrerupe" id="weakness5_option1">
+                    <label for="weakness5_option1">Care Intrerupe</label>
+                    <span class="tooltip" onclick="showTooltip('slăbiciune 1')">?</span>
+                  </div>
+                  <div class="weakness">
+                    <input type="radio" name="Intolerant" id="weakness5_option2">
+                    <label for="weakness5_option2">Intolerant</label>
+                    <span class="tooltip" onclick="showTooltip('slăbiciune 1')">?</span>
+                  </div>
+                  <div class="weakness">
+                    <input type="radio" name="Temator" id="weakness5_option3">
+                    <label for="weakness5_option3">Temator</label>
+                    <span class="tooltip" onclick="showTooltip('slăbiciune 1')">?</span>
+                  </div>
+                  <div class="weakness">
+                    <input type="radio" name="Nehotarat" id="weakness5_option4">
+                    <label for="weakness5_option4">Nehotarat</label>
+                    <span class="tooltip" onclick="showTooltip('slăbiciune 1')">?</span>
+                  </div>
+                  
+            
+          </div>
+          <button onclick="window.location.href='AltaPagina.html'" class="button">Vezi Rezultatul</button>
+
+          
+          
+      </div>
+      
+      </div>
+
+    
+        <div class="right-section">
+          <!-- Locul unde se va afișa explicația -->
+          <div id="tooltipContent" class="tooltip-content"></div>
+        </div>
+      </div>
+    
+</body>
+</html>
